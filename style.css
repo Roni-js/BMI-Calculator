@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.flex{
+    gap: 2;
+    display: flex;
+}
+h1{
+    color: #333;
+    text-align: center;
+}
+#bmiForm{
+    display: none;
+}
+form{
+    max-width: 400px;
+    max-height: 1000px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+label{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover{
+    background-color: #45a049;
+}
+.reset-btn{
+    display: none;
+}
+hr{
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    margin-left: -30px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#result{
+    display: none;
+    text-align: center;
+    font-size: 18px;
+}
+.form-open{
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
